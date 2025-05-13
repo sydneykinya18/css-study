@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .container {
+            background-color: rgb(15, 139, 234);
+            border-radius: 20px;
+            height: 500px;
+        }
+
+        .container .nav {
+            display: flex;
+            justify-content: space-between;
+            color: aliceblue;
+            padding: 10px;
+        }
+
+        .container .nav .first a {
+            text-decoration: none;
+            color: white;
+            padding: 20px;
+        }
+
+        .container .nav .first {
+            display: flex;
+
+        }
+
+        .container .nav .first li {
+            list-style: none;
+        }
+
+        .container .nav .second a {
+            text-decoration: none;
+            color: aliceblue;
+        }
+        .container .content{
+            position: relative;
+            height: 400px;
+        }
+        .container .content .simple{
+            color: aliceblue;
+            width: 300px;
+            position: absolute;
+            left: 150px;
+            bottom:100px;
+
+        }
+        .container .content .image img{
+            position: absolute;
+            right:200px;
+            bottom: 100px;
+        }
+        .container .content .simple button{
+            border-radius: 20px;
+            position: absolute;
+            left: 50px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <ul class="first">
+                <li><a href=""><i class="fa-solid fa-bars-staggered fa-2xl" style="color: #f4f5f5;"></i></a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+            <ul class="second">
+                <li><a href="">contact Us</a></li>
+            </ul>
+
+        </div>
+        <div class="content">
+            <div class="simple">
+                <h1>simple <br> Web Design</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto libero quaerat culpa in atque
+                    illum?</p>
+                    <button>portfolio</button>
+
+            </div>
+            <div class="image">
+                <img src="studying.webp" alt="">
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
